@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Monish | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">Monish.dev</h2>
+
+    <!-- Hamburger -->
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-icon">☰</label>
+
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HOME -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="home-img float">
+        <img src="./PassPhoto1.jpg" alt="Profile Picture">
+      </div>
+      <div class="home-text">
+        <h1 class="typing">Hi, I'm Monish Koushal</h1>       
+        <p>A developer building web solutions</p>
+        <a href="ResumeTcs.pdf" target="_blank" download class="cv-link"><button><i class="fas fa-download"></i>Download CV</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science student passionate about Web Development and
+      Machine Learning. I enjoy building clean, responsive, and data-driven
+      applications.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <h2>Technical Toolkit</h2>
+
+    <div class="skills-container">
+      <div class="skill-box float">
+        <h3>Languages</h3>
+        <p>Python, JavaScript, HTML, CSS, SQL</p>
+      </div>
+
+      <div class="skill-box float">
+        <h3>Web</h3>
+        <p>HTML, CSS, Responsive Design</p>
+      </div>
+
+      <div class="skill-box float">
+        <h3>ML & Tools</h3>
+        <p>Pandas, NumPy, Matplotlib, Git</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-container">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>Responsive portfolio using HTML & CSS.</p>
+        <a href="#">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>ML Prediction System</h3>
+        <p>Student performance prediction using ML.</p>
+        <a href="#">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <h3>Snake Game</h3>
+        <p>GUI based Snake Game using Python.</p>
+        <a href="#">View Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- SOCIAL ICONS -->
+    <div class="social">
+      <a href="https://github.com/yourusername" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://instagram.com/yourusername" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="mailto:monish@email.com">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
